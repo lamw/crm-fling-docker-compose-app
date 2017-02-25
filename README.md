@@ -10,11 +10,11 @@ Docker Compose App consisting of Tomcat and MySQL Docker Container ready to run 
 
 ## Usage
 
-Step 1 - Download the [Cluster Rules Manager Fling zip](https://download3.vmware.com/software/vmw-tools/crm/crm downloads-v1.0.zip).
+Step 1 - Download the [Cluster Rules Manager Fling zip](https://download3.vmware.com/software/vmw-tools/crm/crm%20downloads-v1.0.zip).
 
 Step 2 - Extract **crm.war** and **crminstallationkeystore.jks** from the zip file.
 
-Step 3 - Download the Docker Compose App zip from [here](https://github.com/lamw/crm-fling-docker-compose-app/archive/master.zip and extract it to your desktop. 
+Step 3 - Download the Docker Compose App zip from [here](https://github.com/lamw/crm-fling-docker-compose-app/archive/master.zip) and extract it to your desktop. 
 
 You should end up with a directory called **crm-fling-docker-compose-app** which contains the following structure:
 
