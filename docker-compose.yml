@@ -1,0 +1,18 @@
+app:  
+  build: ./app
+  ports:
+    - "8443:8443"
+  links:
+    - db
+
+db:  
+  build: ./db
+  ports:
+    - "3306:3306"
+  volumes:
+    - ./crmdb:/var/lib/mysql 
+  environment:
+    MYSQL_ROOT_PASSWORD: VMware1!
+    MYSQL_DATABASE: crm1
+    MYSQL_USER: root
+    MYSQL_PASSWORD: VMware1!
