@@ -28,9 +28,9 @@ You should end up with a directory called **crm-fling-docker-compose-app** which
 └── docker-compose.ym
 ```
 
-Step 4 - Copy both **crm.war** and **crminstallationkeystore.jks* into the **app** directory.
+Step 4 - Copy both **crm.war** and **crminstallationkeystore.jks** into the **app** directory.
 
-Step 5 - Upload the **crm-fling-docker-compose-app* to your Docker Hos. 
+Step 5 - Upload the **crm-fling-docker-compose-app** to your Docker Host. 
 
 Step 6 - Change into the **crm-fling-docker-compose-app** directory and build our Docker application by running the following:
 
