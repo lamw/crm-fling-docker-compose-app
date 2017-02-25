@@ -26,7 +26,7 @@ You should end up with a directory called **crm-fling-docker-compose-app** which
 │   ├── Dockerfile
 │   └── data.sql
 └── docker-compose.ym
-``
+```
 
 Step 4 - Copy both **crm.war** and **crminstallationkeystore.jks* into the **app** directory.
 
@@ -38,11 +38,13 @@ Step 6 - Change into the **crm-fling-docker-compose-app** directory and build ou
 docker-compose up
 ```
 
-If everything was successful, you should now be able to launch the CRM application by going to the IP Address of the Docker Host (this could also be localhost if you are running on your local desktop):
+If everything was successful, you should now be able to launch the CRM application by opening a browser to the following URL:
 
 ```
 https://[DOCKER-HOST]:8443/crm
 ```
+
+When prompted for the DB Server, use the same IP Address as the Docker Host with following credentials:
 
 **Default MySQL Credentials**
 * Username: root
