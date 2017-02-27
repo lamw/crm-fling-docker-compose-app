@@ -1,1 +1,1 @@
-grant all on crm1.* to 'root'@'%' identified by 'VMware1!';
+grant all on crm1.* to 'crmuser'@'%' identified by 'VMware1!';
