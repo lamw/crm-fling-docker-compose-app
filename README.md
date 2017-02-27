@@ -25,7 +25,7 @@ You should end up with a directory called **crm-fling-docker-compose-app** which
 ├── db
 │   ├── Dockerfile
 │   └── data.sql
-└── docker-compose.ym
+└── docker-compose.yml
 ```
 
 Step 4 - Copy both **crm.war** and **crminstallationkeystore.jks** into the **app** directory.
