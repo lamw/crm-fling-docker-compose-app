@@ -47,7 +47,7 @@ https://[DOCKER-HOST]:8443/crm
 When prompted for the DB Server, use the same IP Address as the Docker Host with following credentials:
 
 **Default MySQL Credentials**
-* Username: root
+* Username: crmuser
 * Password: VMware1!
 
-Note: If you wish to change the default password of the MySQL, edit the docker-compose.yml and update the **MYSQL_ROOT_PASSWORD** variable with your new password.
+Note: If you wish to change the default credetials of the MySQL, edit the docker-compose.yml and update the **MYSQL_ROOT_PASSWORD** variable with your new password.
